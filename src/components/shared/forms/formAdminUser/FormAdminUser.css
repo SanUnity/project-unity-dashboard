@@ -1,0 +1,129 @@
+.user-admin-form-container {
+    position: relative;
+    height: 100%;
+}
+
+.user-admin-form-container .user-admin-form-content {
+    background-color: white;
+    border-radius: 10px !important;
+    overflow: hidden;
+    box-shadow: 0px 4px 25px 0px rgba(0,0,0,0.1) !important;
+}
+
+.user-admin-form-container .back-btn.btn-transparent {
+    opacity: 0.7;
+    height: auto !important;
+    width: auto !important;
+}
+  
+.user-admin-form-container .back-btn.desktop {}
+    
+.user-admin-form-container .back-btn.mobile {
+    margin: 15px;
+    z-index: 5;
+}
+
+.user-admin-form-container .icon-back.mobile {
+    height: 18px;
+    width: 18px;
+}
+    
+.user-admin-form-container .icon-back.desktop {
+    height: 20px;
+    width: 20px;
+}
+
+.user-admin-form-container .back-text {
+    font-family: "HelveticaNeuMedium";
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.35;
+    letter-spacing: normal;
+}
+    
+.user-admin-form-container .back-text.mobile {
+    font-weight: 300;
+    font-size: 14px;
+}
+    
+.user-admin-form-container .back-text.desktop {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.user-admin-form-container .user-admin-form-content .form-control {
+    background: white;
+    height: 57px;
+    border-color: #e0e0e0;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 4px;
+}
+
+.user-admin-form-container .user-admin-form-content .user-admin-form .form-control:hover,
+.user-admin-form-container .user-admin-form-content .user-admin-form .form-control:focus,
+.user-admin-form-container .user-admin-form-content .user-admin-form .MuiSelect-select:hover {
+    border: 2px solid red;
+}
+
+.user-admin-form-container .user-admin-form-content .user-admin-form {
+    font-family: "HelveticaNeuRegular";
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.35;
+    letter-spacing: normal;
+    color: black;
+}
+
+.user-admin-form-container .user-admin-form-content .user-admin-form.mobile,
+.user-admin-form-container .user-admin-form-content .user-admin-form.mobile .form-control,
+.user-admin-form-container .user-admin-form-content .user-admin-form.mobile .MuiSelect-select {
+    font-size: 14px;
+    padding-left: 12px;
+}
+
+.user-admin-form-container .user-admin-form-content .user-admin-form.desktop,
+.user-admin-form-container .user-admin-form-content .user-admin-form.desktop .form-control,
+.user-admin-form-container .user-admin-form-content .user-admin-form.desktop .MuiSelect-select {
+    font-size: 16px;
+    padding-left: 24px;
+}
+
+.user-admin-form-container .user-admin-form-content .user-admin-form .MuiSelect-select.MuiSelect-select {
+    padding-right: 0 !important;
+}
+
+.user-admin-form-container .user-admin-form-content .user-admin-form .input-title {
+    font-family: "HelveticaNeuMedium";
+    opacity: 0.7;
+}
+
+.user-admin-form-container .user-admin-form-content .MuiFormControl-root {
+    width: 100%;
+}
+
+.user-admin-form-container .user-admin-form-content .MuiInput-formControl {
+    margin-top: 0 !important;
+    font-family: "HelveticaNeuRegular";
+}
+
+.user-admin-form-container .user-admin-button {
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5) !important;
+}
+
+.user-admin-form-container .user-admin-button.mobile {
+    padding: 0;
+    margin: 36px auto;
+    font-size: 16px;
+}
+    
+.user-admin-form-container .user-admin-button.desktop {
+    padding: 0;
+    margin: 0px auto 36px auto;
+    font-size: 16px;
+}
+    
+.user-admin-form-container .user-admin-button:disabled {
+    opacity: 0.3;
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.5) !important;
+}

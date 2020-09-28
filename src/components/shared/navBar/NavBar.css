@@ -1,0 +1,286 @@
+.nav-bar-container {
+    z-index: 1300 !important;
+    position: fixed !important;
+    width: 100%;
+    top: 0;
+}
+  
+.nav-bar-container.mobile {
+    height: 60px;
+}
+  
+.nav-bar-container.desktop {
+    height: 80px;
+}
+  
+.nav-bar-container .nav-menu {
+    position: absolute;
+    height: 100%;
+    left: 50%;
+    right: 50%;
+    z-index: 1;
+}
+  
+.nav-bar-container .nav-menu .selected {
+    border-bottom: 3px solid #53bfd4;
+}
+  
+.nav-bar-container .nav-menu a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.35;
+    letter-spacing: normal;
+    text-align: center;
+}
+  
+.nav-bar-container .logo-container.desktop .main-logo {
+    width: 80px;
+    height: auto;
+}
+  
+.nav-bar-container .logo-container.mobile .main-logo {
+    width: 50px;
+    height: auto;
+}
+
+.nav-bar-container .logo-container.mobile span {
+    font-family: "HelveticaNeuRegular";
+    font-size: 12px;
+}
+
+.nav-bar-container .logo-container.desktop span {
+    font-family: "HelveticaNeuRegular";
+    font-size: 16px;
+}
+
+.nav-bar-container .logo-container.desktop span.bold,
+.nav-bar-container .logo-container.mobile span.bold {
+    font-family: "HelveticaNeuBold";
+}
+
+.nav-bar-container .logo-container.desktop span.alpha,
+.nav-bar-container .logo-container.mobile span.alpha {
+    opacity: 0.7;
+}
+
+
+.nav-bar-container .nav-box-profile.desktop .profile-icon {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    padding: 10px;
+    box-shadow: 0 2px 4px -2px rgba(0,0,0,0.24), 0 4px 24px -2px rgba(0, 0, 0, 0.2);
+}
+
+.nav-bar-container .nav-box-profile.mobile .profile-icon {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+    padding: 5px;
+    box-shadow: 0 2px 4px -2px rgba(0,0,0,0.24), 0 4px 24px -2px rgba(0, 0, 0, 0.2);
+}
+
+.nav-bar-container .nav-box-profile.desktop span {
+    font-family: "HelveticaNeuRegular";
+    font-size: 14px;
+    max-width: 100px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.nav-bar-container .nav-box-profile.mobile span {
+    font-family: "HelveticaNeuRegular";
+    font-size: 11px;
+    max-width: 80px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.nav-bar-container .nav-box-profile.desktop span.bold,
+.nav-bar-container .nav-box-profile.mobile span.bold {
+    font-family: "HelveticaNeuBold";
+}
+
+.nav-bar-container .nav-box-profile.desktop span.alpha,
+.nav-bar-container .nav-box-profile.mobile span.alpha {
+    opacity: 0.7;
+}
+
+.nav-bar-container .nav-box-profile .btn-navbar .icon-nav-close {
+    width: 28px;
+    height: 28px;
+}
+
+.nav-bar-container .box-close.desktop {
+    width: 240px;
+    height: 40px;
+    top: 80px;
+    right: 0px;
+    position: fixed;
+    z-index: 1;
+    box-shadow: 0 2px 4px -2px rgba(0,0,0,0.24), 0 4px 24px -2px rgba(0, 0, 0, 0.2);
+    /* border-radius: 10px; */
+}
+
+.nav-bar-container .box-close.mobile {
+    width: 140px;
+    height: 30px;
+    top: 60px;
+    right: 0px;
+    position: fixed;
+    z-index: 1;
+    box-shadow: 0 2px 4px -2px rgba(0,0,0,0.24), 0 4px 24px -2px rgba(0, 0, 0, 0.2);
+    /* border-radius: 10px; */
+}
+
+.nav-bar-container .box-close.desktop .title-close {
+    font-family: "HelveticaNeuRegular";
+    font-size: 14px;
+}
+
+.nav-bar-container .box-close.mobile .title-close {
+    font-family: "HelveticaNeuRegular";
+    font-size: 11px;
+}
+  
+@keyframes fadeInDown {
+    from {
+      opacity: 0;
+      transform: translate3d(0, -100%, 0);
+}
+  
+    to {
+      opacity: 0.7;
+      transform: translate3d(0, 0, 0);
+    }
+}
+
+.fadeInDown {
+    animation-name: fadeInDown;
+}
+
+.animated {
+    animation-duration: 0.7s;
+    animation-fill-mode: both;
+}
+
+@keyframes fadeInDownMenu {
+    from {
+      opacity: 0;
+      transform: translate3d(0, -50%, 0);
+}
+  
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+}
+
+.fadeInDownMenu {
+    animation-name: fadeInDownMenu;
+}
+
+.animatedMenu {
+    animation-duration: 0.3s;
+    animation-fill-mode: both;
+}
+  
+.nav-bar-container .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.nav-bar-container .sidenav .logo-mobile-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+}
+  
+.nav-bar-container .sidenav li {
+    font-family: "HelveticaNeuRegular";
+    /* padding: 8px 8px 8px 32px; */
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+    transition: 0.3s;
+    height: 37px;
+}
+
+.nav-bar-container .sidenav li.selected {
+    border-right: 5px solid #028fb6;
+}
+
+.nav-bar-container .sidenav li span {
+    max-width: 230px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding: 0px 0px 0px 32px;
+    line-height: 37px;
+    vertical-align: middle;
+} 
+  
+.nav-bar-container .sidenav li:hover {
+    text-decoration: none;
+}
+  
+.nav-bar-container .sidenav .logo-mobile-container .closebtn {
+    position: absolute;
+    right: 25px;
+    width: 25px;
+    height: 25px;
+}
+  
+.nav-bar-container .sidenav .nav-icon-mobile {
+    width: 18px;
+    height: 18px;
+}
+
+.nav-bar-container .sidenav .nav-icon-expand {
+    width: 24px;
+    height: 24px;
+}
+  
+.nav-bar-container .sidenav .logo-mobile-container .nav-main-logo {
+    width: 60px;
+    position: absolute;
+    left: 25px; 
+}
+
+@media only screen and (min-width: 748px) and (max-width: 1095px) {
+}
+
+@media only screen and (min-device-width: 1440px) {
+    .nav-bar-container .nav-menu a {
+      text-decoration: none;
+      font-size: 16px;
+    }
+}
+
+@media only screen and (min-device-width: 1700px) {
+    .nav-bar-container .nav-menu a {
+      text-decoration: none;
+      font-size: 18px;
+    }
+}
+
+@media only screen and (min-device-width: 2200px) {
+    .nav-bar-container .nav-menu a {
+      text-decoration: none;
+      font-size: 18px;
+    }
+}

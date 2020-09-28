@@ -1,0 +1,19 @@
+.subtitle-header {
+    font-size: 16px;
+    font-family: "HelveticaNeuBold" !important;
+    opacity: 0.8;
+}
+
+.auto-evo-container {
+    padding: 30px;
+}
+
+.auto-evo-container.mobile {
+    margin-top: 60px;
+}
+
+@media (max-width: 1100px) and (min-width: 720px) {
+    .auto-evo-container.desktop {
+      margin-top: 90px !important;
+    }
+}

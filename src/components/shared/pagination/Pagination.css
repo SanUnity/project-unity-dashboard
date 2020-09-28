@@ -1,0 +1,26 @@
+.pagination {
+  margin-top: 1rem;
+}
+.pagination .icon-pagination {
+  width: 26px;
+  height: 26px;
+}
+.pagination .btn-pagination {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  border-radius: 0;
+}
+
+.pagination .page-item button {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.pagination .number-active {
+  font-weight: bolder;
+  font-size: 17px;
+  color: black !important;
+}

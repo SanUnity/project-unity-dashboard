@@ -1,0 +1,90 @@
+.radio-container {
+  display: block;
+  position: relative;
+  padding-left: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin-top: -12px;
+}
+
+.radio-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: 2px solid grey;
+}
+
+.radio-container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+.radio-container input:checked ~ .checkmark {
+  border: 2px solid #d43131;
+}
+
+.checkmark:after {
+  content: '';
+  position: absolute;
+  display: none;
+}
+
+.radio-container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.radio-container .checkmark:after {
+  top: 3px;
+  left: 3px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #d43131;
+}
+
+.tablinks {
+  background-color: inherit;
+  border: none;
+  outline: none;
+  padding: 7px 22px;
+  transition: 0.3s;
+}
+
+.item-tab {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #4d4d4d;
+  height: 45px;
+}
+
+.item-tab .item-tab-label {
+  display: flex;
+  align-items: center;
+  min-height: 53px;
+}
+
+.item-tab .tab-cases {
+  display: flex;
+  align-items: center;
+}
+
+.item-tab .tab-color {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-left: 5px;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.7) !important;
+}

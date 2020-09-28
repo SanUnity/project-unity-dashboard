@@ -1,0 +1,114 @@
+.cookie-modal {
+  background-color: #26262b;
+}
+.cookie-modal.desktop {
+  height: 80px;
+  position: fixed;
+  bottom: 0;
+  z-index: 10;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.cookie-modal.desktop span {
+  font-size: 14px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.36;
+  letter-spacing: normal;
+  text-align: left;
+  margin: 0;
+}
+.cookie-modal.desktop .btn-close {
+  right: 15px;
+  position: absolute;
+}
+.cookie-modal.desktop .accept-btn {
+  font-size: 14px;
+  text-decoration-line: underline;
+  padding: 1px 7px 0;
+  margin-top: 1px;
+  text-align: start;
+}
+.cookie-modal.desktop .btn-close .icon-close {
+  width: 25px;
+  height: 25px;
+}
+.cookie-modal.mobile {
+  height: 105px;
+  position: fixed;
+  bottom: 0;
+  z-index: 10;
+  font-size: 10px;
+  justify-content: start;
+  align-items: start;
+}
+.cookie-modal.mobile span {
+  font-size: 12px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.36;
+  letter-spacing: normal;
+  text-align: left;
+  margin: 0;
+  width: 70%;
+}
+.cookie-modal.mobile a {
+  display: inline-block;
+  /* width: 50%; */
+}
+.cookie-modal.mobile .btn-close {
+  top: 5px;
+  right: 10px;
+  position: absolute;
+}
+.cookie-modal.mobile .accept-btn {
+  font-size: 12px;
+  text-decoration-line: underline;
+  padding: 1px 1px 0;
+  margin-top: 1px;
+  text-align: start;
+}
+.cookie-modal.mobile .btn-close .icon-close {
+  width: 25px;
+  height: 25px;
+}
+
+@keyframes bounceInUp {
+  from,
+  60%,
+  75%,
+  90%,
+  to {
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+
+  from {
+    opacity: 0;
+    transform: translate3d(0, 3000px, 0);
+  }
+
+  60% {
+    opacity: 1;
+    transform: translate3d(0, -20px, 0);
+  }
+
+  75% {
+    transform: translate3d(0, 10px, 0);
+  }
+
+  90% {
+    transform: translate3d(0, -5px, 0);
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.bounceInUp {
+  animation-name: bounceInUp;
+}

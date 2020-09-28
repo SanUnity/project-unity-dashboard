@@ -1,0 +1,75 @@
+.main-menu-container li {
+    font-family: "HelveticaNeuRegular";
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+    transition: 0.3s;
+    height: 30px;
+    cursor: pointer;
+    padding: 0 0 0 28px;
+}
+
+.main-menu-container li.parent {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.main-menu-container li.children {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.main-menu-container li.selected {
+    border-right: 5px solid #028fb6;
+}
+
+.main-menu-container li span {
+    width: 62%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: inline-block;
+    line-height: 30px;
+    vertical-align: middle;
+}
+  
+.main-menu-container li:hover {
+    text-decoration: none;
+}
+.main-menu-container .nav-icon-expand {
+    width: 24px;
+    height: 24px;
+}
+
+.main-menu-container .nav-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+
+@keyframes fadeInDownMenu {
+    from {
+      opacity: 0;
+      transform: translate3d(0, -50%, 0);
+}
+  
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+}
+
+.fadeInDownMenu {
+    animation-name: fadeInDownMenu;
+}
+
+.animatedMenu {
+    animation-duration: 0.3s;
+    animation-fill-mode: both;
+}
+
+@media only screen and (min-width: 1456px) {
+    .main-menu-container li span {
+        width: 72%;
+    }
+}

@@ -1,0 +1,120 @@
+  
+@font-face {
+  font-family: HelveticaNeuBold;
+  src: local(HelveticaNeuBold), url('./utils/fonts/Helvetica Neu Bold.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: HelveticaNeuRegular;
+  src: local(HelveticaNeuRegular), url('./utils/fonts/HelveticaNeue regular.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: HelveticaNeuMedium;
+  src: local(HelveticaNeuMedium), url('./utils/fonts/HelveticaNeue Medium.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+html,
+body,
+#root,
+#root > div {
+  background-color: #EFEFF7;
+}
+html,
+body,
+#root {
+  font-family: Arial, Helvetica, sans-serif;
+}
+body input {
+  height: 50px !important;
+}
+.select-component {
+  margin-top: 16px; 
+  background-color: white;
+  border-radius: 8px;
+  padding: 32px;
+}
+
+.main-blue {
+  color: #53bfd4 !important;
+}
+.light-blue {
+  color: #d6edf3 !important;
+}
+
+.white {
+  color: white !important;
+}
+
+.black {
+  color: black !important;
+}
+
+.red {
+  color: #028fb6 !important;
+}
+.grey {
+  color: #898383 !important;
+}
+
+.light-text {
+  color: #708090 !important;
+}
+
+.dark-text {
+  color: #27282e !important;
+}
+
+.bg-light-b2b {
+  background-color: white !important;
+}
+
+.bg-main-covid {
+  background-color: #028fb6 !important;
+}
+
+.bg-main-covid-alpha {
+  background-color: #028fb6AA !important;
+}
+
+.bg-red {
+  background-color: #028fb6 !important;
+}
+
+.bg-main-background {
+  background-color: #EFEFF7 !important;
+}
+
+.bg-grey {
+  background-color: #D8D8DD !important;
+}
+
+.bg-cards {
+  background-color: #FFFFFF !important;
+}
+.w-45 {
+  width: 45% !important;
+}
+.w-55 {
+  width: 55% !important;
+}
+.w-40 {
+  width: 40% !important;
+}
+
+.h-80 {
+  height: 80% !important;
+}
+.h-20 {
+  height: 20% !important;
+}
+

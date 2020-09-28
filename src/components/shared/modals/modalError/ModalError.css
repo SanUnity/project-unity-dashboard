@@ -1,0 +1,167 @@
+/*---- modal ----*/
+.modal-backdrop {
+  z-index: 1 !important;
+}
+
+.errorModal-box .modal {
+  text-align: center;
+}
+
+.errorModal-box .modal.fade .simple-modal-dialog.mobile {
+  transform: translate3d(0, 0vh, 0) !important;
+}
+
+.errorModal-box .modal.show .simple-modal-dialog.mobile {
+  transform: translate3d(0, 0, 0) !important;
+}
+
+.errorModal-box .simple-modal-dialog.mobile {
+  max-width: 100% !important;
+}
+
+.errorModal-box .simple-modal-dialog.desktop {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+  max-width: 1000px;
+}
+
+.errorModal-box .simple-modal-content {
+  justify-content: center !important;
+  height: auto;
+  width: 100% !important;
+  border-radius: 10px;
+}
+
+.errorModal-box .simple-modal-content.mobile {
+  border-top-right-radius: 21px !important;
+  border-top-left-radius: 21px !important;
+  height: 60vh;
+  width: 100% !important;
+}
+
+.errorModal-box .simple-modal-body {
+  width: 100%;
+  height: auto;
+}
+
+.errorModal-box .simple-modal-body.desktop {
+  position: relative;
+  padding: 80px 200px 80px 200px !important;
+}
+
+.errorModal-box .simple-modal-body.mobile {
+  border-top-left-radius: 21px;
+  border-top-right-radius: 21px;
+}
+
+.errorModal-box .modal {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* .modal-error .modal {
+  z-index: 1051 !important;
+} */
+
+.errorModal-box .modal.mobile {
+  top: 55% !important;
+}
+
+.errorModal-box .modal.desktop {
+  top: 40% !important;
+  overflow: visible;
+}
+
+.errorModal-box .fade {
+  transition: opacity 0.3s linear !important;
+}
+
+#errorModal .btn-close {
+  position: absolute;
+  top: -12px;
+  right: -12px;
+  background-color: white;
+  border-radius: 50%;
+  transform: rotate(45deg);
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+}
+
+#errorModal .btn-close img {
+  width: 35px;
+  height: 35px;
+}
+
+#errorModal .text-box.mobile .img-middle {
+  width: 60px;
+  height: 60px;
+}
+
+#errorModal .text-box.desktop .img-middle {
+  width: 80px;
+  height: 80px;
+}
+
+#errorModal .text-box.mobile {
+  padding: 3rem 3rem 1rem;
+}
+
+#errorModal .text-box.desktop {
+  margin-bottom: 20px;
+}
+
+#errorModal .text-box.mobile span {
+  /* font-size: 20px; */
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: 0.48px;
+  text-align: center;
+}
+
+#errorModal .text-box.mobile .title {
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+#errorModal .text-box.desktop .title {
+  font-size: 17px;
+  font-weight: bolder;
+}
+
+#errorModal .text-box.mobile .description {
+  font-size: 12px;
+  color: #747474;
+}
+
+#errorModal .text-box.desktop .description {
+  font-size: 14px;
+  color: #747474;
+}
+
+#errorModal .btn-modal {
+  border-radius: 0;
+}
+
+/* <----IPHONE X ------> */
+@media only screen and (device-width: 375px) and (device-height: 812px) {
+  #errorModal .modal.mobile {
+    top: 60% !important;
+  }
+}
+/* <---iphone 5/SE ----> */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) {
+  #errorModal .modal.mobile {
+    top: 50% !important;
+  }
+}
+/* <----- iphone 6/7/8 ----> */
+@media only screen and (device-width: 375px) and (device-height: 667px) {
+  #errorModal .modal.mobile {
+    top: 50% !important;
+  }
+}

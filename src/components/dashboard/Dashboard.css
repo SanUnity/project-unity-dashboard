@@ -1,0 +1,23 @@
+.dashboard-container {
+    min-height: 100%;
+    overflow: auto;
+}
+  
+.dashboard-container.desktop {
+    padding-top: 80px;
+}
+  
+.dashboard-container.mobile {
+    padding-top: 60px;
+}
+
+.dashboard-container .dashboard-content .components-container.desktop {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.dashboard-container .dashboard-content .components-container {
+    /* padding-bottom: 30px !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important; */
+}

@@ -1,0 +1,13 @@
+
+.app-usage-cards.mobile .card .stats-card-body {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.app-usage-cards.desktop .card .stats-card-body .title-section p {
+    height: 42px;
+}
+
+.app-usage-cards.mobile .card .stats-card-body .title-section p {
+    height: 52px;
+}

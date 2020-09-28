@@ -1,0 +1,132 @@
+.box-filters {
+    border: 0 !important;
+    box-shadow: 0px 4px 25px 0px rgba(0,0,0,0.1) !important;
+    transition: all 0.3 ease-in-out !important;
+    font-family: "HelveticaNeuMedium" !important;
+    border-radius: 10px !important;
+}
+
+.chart-test-box {
+  padding: 30px !important;
+}
+
+.chart-test-box.mobile {
+  margin-top: 60px;
+}
+
+.chart-test-box .apexcharts-canvas {
+  overflow: visible !important;
+}
+
+.filter-date-btns > button {
+  margin: 0 15px;
+}
+.filter-date-btns > button:last-child {
+  margin: 0 0 0 15px;
+}
+.MuiPickersToolbar-toolbar {
+ 
+  background-color: #028fb6 !important;
+}
+.MuiPickersDay-daySelected {
+  background-color: #028fb6 !important;
+}
+
+.box-filters .row-filters-select {
+  justify-content: space-between;
+}
+
+.filter-date-btns .selected {
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.7) !important;
+}
+
+.MuiInputBase-root.MuiInput-root.MuiInput-underline {
+  color: #616161;
+  background: white;
+  height: 40px;
+  border-color: #e0e0e0;
+  border-style: solid;
+  border-width: 2px;
+  padding-left: 24px;
+  border-radius: 4px;
+}
+
+.filter-date .MuiInputBase-root.MuiInput-root.MuiInput-underline.MuiInput-underline:before {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: "";
+  position: absolute;
+  border-bottom: 0;
+  pointer-events: none;
+}
+
+.filter-date #date-picker-init-label,
+.filter-date #date-picker-end-label {
+  color: #9e9e9e;
+  margin-left: 4px;
+}
+
+.filter-date .MuiSvgIcon-root {
+  fill: #028fb6;
+}
+
+
+@media (max-width: 1100px) and (min-width: 720px) {
+  .box-filters {
+    padding: 32px 2% !important
+  }
+  .filter-date-btns {
+    justify-content: center;
+  }
+  .filter-date-btns > button {
+    flex: 0 30%;
+    margin: 15px;
+  }
+  .BorderSelect-select-2 {
+    min-width: 165px !important;
+  }
+  .filter-date-calendar {
+    justify-content: center
+  }
+  
+  .box-filters .row-filters-select {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .filter-date-btns > button:last-child {
+    margin: 0 15px;
+  }
+
+  .chart-test-box.desktop {
+    margin-top: 90px;
+  }
+}
+@media (max-width: 720px) {
+  .filter-date-btns > button {
+    margin: 0;
+  }
+  .filter-date-btns {
+    justify-content: center;
+    padding: 32px 2% !important;
+  }
+  .filter-date-btns > button:last-child {
+    margin: 0;
+  }
+}
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) {
+  .filter-date-btns {
+    justify-content: center;
+  }
+  .box-filters {
+    padding: 32px 4% !important
+  }
+  .filter-date-btns > button {
+    margin: 2px;
+  }
+  .filter-date-btns > button:last-child {
+    margin: 2px;
+  }
+}

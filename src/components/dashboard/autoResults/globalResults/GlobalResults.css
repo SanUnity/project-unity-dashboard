@@ -1,0 +1,74 @@
+.card {
+    border: 0;
+    box-shadow: 0px 4px 25px 0px rgba(0,0,0,0.1) !important;
+    transition: all 0.3 ease-in-out !important;
+    font-family: "HelveticaNeuMedium" !important;
+    border-radius: 10px !important;
+}
+
+.card .card-header {
+    border-bottom: none;
+    padding: 1.5rem 1.5rem 0;
+    background-color: transparent;
+}
+
+.chart-info .series-info .label {
+    width: 180px;
+    font-size: 14px;
+}
+
+.chart-info .series-info .data {
+    width: 50px;
+    text-align: end;
+    font-size: 14px;
+}
+
+.chart-info .series-info .info-data-color {
+    -moz-border-radius: 10px/10px;
+    -webkit-border-radius: 10px 10px;
+    border-radius: 10px/10px;
+    width: 20px;
+    height: 20px;
+    margin-left: 4px;
+}
+
+.avatar {
+    border-radius: 50%;
+    text-align: center;
+    white-space: nowrap;
+    position: relative;
+    color: #fff;
+    display: inline-flex;
+    font-size: 0.75rem;
+    vertical-align: middle;
+    width: 36px;
+    height: 36px;
+    padding: 8px;
+}
+
+.apexcharts-canvas {
+    border-radius: 10px !important;
+    overflow: hidden;
+}
+
+.avatar .avatar-content {
+    width: 25px;
+    height: 25px;
+    margin: 0 auto;
+}
+
+.card .stats-card-body .title-section h2 {
+    font-family: "HelveticaNeuMedium";
+    font-size: 24px;
+}
+
+.card .stats-card-body .title-section p {
+    font-family: "HelveticaNeuRegular";
+    font-size: 14px;
+}
+
+.info-data-text {
+    opacity: 0.5;
+    font-size: 12px;
+    min-height: 35px;
+}

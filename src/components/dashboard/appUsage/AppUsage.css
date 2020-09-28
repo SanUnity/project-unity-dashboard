@@ -1,0 +1,13 @@
+.app-usage-container {
+    padding: 30px;
+}
+
+.app-usage-container.mobile {
+    margin-top: 60px;
+}
+
+@media (max-width: 1100px) and (min-width: 720px) {
+    .app-usage-container.desktop {
+      margin-top: 90px !important;
+    }
+}

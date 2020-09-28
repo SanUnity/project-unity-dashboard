@@ -1,0 +1,75 @@
+.filters-bar-container {
+    top: 0;
+    left: 0;
+    z-index: 1200;
+    box-shadow: 0px 4px 25px 0px rgba(0,0,0,0.1) !important;
+}
+
+.filters-bar-container.mobile {
+    position: fixed;
+    padding: 10px 30px 10px 30px;
+    top: 60px;
+    min-height: 60px;
+}
+
+.filters-bar-container.desktop {
+    position: sticky;
+    padding: 25px 30px 25px 30px;
+    min-height: 90px;
+}
+
+.title-header {
+    font-family: "HelveticaNeuBold" !important;
+    opacity: 0.8;
+}
+
+.filters-bar-container.mobile .title-header {
+    font-size: 14px;
+}
+
+.filters-bar-container.desktop .title-header {
+    font-size: 20px;
+}
+
+.filters-bar-container.mobile .btn-filters {
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    border-radius: 0;
+    padding: 0;
+    width: 90px;
+    height: 30px;
+    font-size: 11px;
+}
+
+.filters-bar-container.desktop .btn-filters {
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    border-radius: 0;
+    width: 120px;
+    height: 40px;
+    font-size: 14px;
+    padding: 0;
+}
+
+.filters-bar-container .filters-container .box-filters {
+    border: 0 !important;
+    box-shadow: none !important;
+    transition: none !important;
+    font-family: "HelveticaNeuMedium" !important;
+    border-radius: 0 !important;
+}
+
+@media (max-width: 1100px) and (min-width: 720px) {
+    .filters-bar-container.desktop {
+        position: fixed;
+        top: 60px;
+    }
+}

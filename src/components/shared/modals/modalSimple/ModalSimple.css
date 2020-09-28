@@ -1,0 +1,162 @@
+/*---- modal ----*/
+.modal-backdrop {
+  z-index: 1 !important;
+}
+
+.simpleModal-box .modal {
+  text-align: center;
+}
+
+.simpleModal-box .modal.fade .simple-modal-dialog.mobile {
+  transform: translate3d(0, 0vh, 0) !important;
+}
+
+.simpleModal-box .modal.show .simple-modal-dialog.mobile {
+  transform: translate3d(0, 0, 0) !important;
+}
+
+.simpleModal-box .simple-modal-dialog.mobile {
+  max-width: 100% !important;
+}
+
+.simpleModal-box .simple-modal-dialog.desktop {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+  max-width: 1000px;
+}
+
+.simpleModal-box .simple-modal-content {
+  justify-content: center !important;
+  height: auto;
+  width: 100% !important;
+  border-radius: 10px;
+}
+
+.simpleModal-box .simple-modal-content.mobile {
+  border-top-right-radius: 21px !important;
+  border-top-left-radius: 21px !important;
+  height: 60vh;
+  width: 100% !important;
+}
+
+.simpleModal-box .simple-modal-body {
+  width: 100%;
+  height: auto;
+}
+
+.simpleModal-box .simple-modal-body.desktop {
+  border-radius: 6px;
+  position: relative;
+  padding: 80px 200px 80px 200px !important;
+}
+
+.simpleModal-box .simple-modal-body.mobile {
+  border-top-left-radius: 21px;
+  border-top-right-radius: 21px;
+}
+
+.simpleModal-box .modal {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.modal-error .modal {
+  z-index: 1051 !important;
+}
+
+.simpleModal-box .modal.mobile {
+  top: 55% !important;
+}
+
+.simpleModal-box .modal.desktop {
+  top: 35% !important;
+  overflow: visible;
+}
+
+.simpleModal-box .fade {
+  transition: opacity 0.3s linear !important;
+}
+
+#simpleModal .btn-close {
+  position: absolute;
+  top: -12px;
+  right: -12px;
+  background-color: white;
+  border-radius: 50%;
+  transform: rotate(45deg);
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+}
+
+#simpleModal .btn-close img {
+  width: 35px;
+  height: 35px;
+}
+
+#modalsimple .text-box.mobile .img-middle {
+  width: 60px;
+  height: 60px;
+}
+
+#modalsimple .text-box.desktop .img-middle {
+  width: 80px;
+  height: 80px;
+}
+
+#simpleModal .text-box.mobile {
+  padding: 3rem 3rem 1rem;
+}
+
+#simpleModal .text-box.desktop {
+  margin-bottom: 50px;
+}
+
+#simpleModal .text-box.mobile span {
+  /* font-size: 20px; */
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: 0.48px;
+  text-align: center;
+}
+
+#simpleModal .text-box.mobile .title {
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+#simpleModal .text-box.desktop .title {
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+#simpleModal .text-box.mobile .description {
+  font-size: 12px;
+}
+
+#simpleModal .text-box.desktop .description {
+  font-size: 14px;
+}
+
+/* <----IPHONE X ------> */
+@media only screen and (device-width: 375px) and (device-height: 812px) {
+  .modal.mobile {
+    top: 60% !important;
+  }
+}
+/* <---iphone 5/SE ----> */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) {
+  .modal.mobile {
+    top: 50% !important;
+  }
+}
+/* <----- iphone 6/7/8 ----> */
+@media only screen and (device-width: 375px) and (device-height: 667px) {
+  .modal.mobile {
+    top: 50% !important;
+  }
+}

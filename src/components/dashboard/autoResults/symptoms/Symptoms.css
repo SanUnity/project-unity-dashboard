@@ -1,0 +1,32 @@
+.symptoms-main-container {
+    padding: 30px;
+}
+
+.symptoms-main-container.mobile {
+    margin-top: 60px !important;
+}
+
+.symptoms-main-container .symptoms-card-content .card {
+    border: 0 !important;
+    box-shadow: none !important;
+    transition: none !important;
+    font-family: "HelveticaNeuMedium" !important;
+    border-radius: 0 !important;
+    padding: 24px;
+}
+
+.symptoms-card-content {
+    border: 0;
+    box-shadow: 0px 4px 25px 0px rgba(0,0,0,0.1) !important;
+    transition: all 0.3 ease-in-out !important;
+    font-family: "HelveticaNeuMedium" !important;
+    border-radius: 10px !important;
+    background-color: white;
+    overflow: hidden;
+}
+
+@media (max-width: 1100px) and (min-width: 720px) {
+    .symptoms-main-container.desktop {
+      margin-top: 90px !important;
+    }
+}

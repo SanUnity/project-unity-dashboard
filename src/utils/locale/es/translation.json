@@ -1,0 +1,56 @@
+{
+  "Globals": {
+    "back": "Atrás",
+    "name": "Nombre",
+    "surname": "Apellidos",
+    "email": "Email",
+    "password": "Contraseña",
+    "repeatEmail": "Confirmar Email",
+    "repeatPass": "Confirmar Contraseña",
+    "phone": "Teléfono",
+    "accept": "Aceptar",
+    "ok": "Aceptar",
+    "yes": "Si",
+    "no": "No",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "save": "Guardar",
+    "spanish": "Español",
+    "english": "Ingles",
+    "send": "Enviar",
+    "continue": "Continuar"
+  },
+  "Errors": {
+    "userRequired": "El email es requerido.",
+    "passRequired": "El password es requerido.",
+    "notValid": "No es un formato válido.",
+    "notEqual": "No coinciden.",
+    "emailNotEqual": "Emails no coinciden.",
+    "passNotEqual": "Contraseñas no coinciden.",
+    "empty": "Campo obligatorio.",
+    "cardNotValid": "Tarjeta no válida.",
+    "errorTitle": "Ups! Algo salió mal",
+    "errorDescription": "Revise nuevamente su conexión e inténtelo de nuevo",
+    "errorBtn": "Intentar de nuevo",
+    "retry": "Reintentar",
+    "errorLogin": "Email o password incorrectos",
+    "error500": "Error inesperado vuelva a intentarlo"
+  },
+  "Login": {
+    "title": "Project Unity",
+    "subtitle": "App Autoevaluación",
+    "email": "Email",
+    "password": "Password",
+    "login": "Iniciar sesión",
+    "recover": "¿Has olvidado tu contraseña?",
+    "remember": "Recordarme"
+  },
+  "RememberPassModal": {
+    "title": "¿Has olvidado tu contraseña?",
+    "description": "Indícanos tu email y te enviaremos un correo con los pasos para restablecerla."
+  },
+  "RememberPassOkModal": {
+    "title": "Solicitud de restablecimiento de contraseña recibida",
+    "description": "Le hemos enviado un email con las instrucciones para restablecer la contraseña. El email puede tardar unos minutos en llegar a su cuenta. Compruebe la carpeta de correo no deseado para asegurarse de recibirlo."
+  }
+}

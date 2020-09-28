@@ -1,0 +1,8 @@
+
+.gender-card .card {
+  border: 0 !important;
+  box-shadow: none !important;
+  transition: none !important;
+  font-family: 'HelveticaNeuMedium' !important;
+  border-radius: 0 !important;
+}

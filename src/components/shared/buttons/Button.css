@@ -1,0 +1,72 @@
+button:focus,
+input:focus,
+textarea:focus,
+select:focus,
+div {
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+.btn-transparent {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  border-radius: 0;
+  padding: 0;
+}
+
+.btn-transparent.mobile {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  border-radius: 0;
+  height: 35px;
+  font-size: 14px;
+  width: 150px;
+  padding: 0;
+}
+.btn-modal.mobile {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  border-radius: 0;
+  height: 35px;
+  font-size: 14px;
+  width: 150px;
+  padding: 0;
+}
+
+.btn-transparent.desktop {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  border-radius: 0;
+  height: 45px;
+  font-size: 14px;
+  width: 200px;
+  padding: 0;
+}
+.btn-modal.desktop {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  border-radius: 0;
+  height: 40px;
+  font-size: 14px;
+  width: 150px;
+  padding: 0;
+}

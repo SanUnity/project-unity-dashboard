@@ -1,0 +1,25 @@
+.box-inputs-chart.mobile {
+  justify-content: center;
+  flex-direction: column;
+}
+.card {
+  border-radius: 8px !important;
+  border: none !important;
+}
+.card-header {
+  background-color: transparent !important;
+  border-bottom: none !important;
+}
+
+.info-data-text-chart {
+  padding-left: 30px;
+  font-size: 14px;
+  opacity: 0.5;
+}
+
+@media (max-width: 1100px) and (min-width: 720px) {
+  .box-inputs-chart.mobile {
+    justify-content: space-between;
+    flex-direction: row;
+  }
+}

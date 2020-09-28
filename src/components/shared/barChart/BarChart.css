@@ -1,0 +1,7 @@
+.card .bar-chart.vertical {
+    margin: 0 auto !important;
+}
+
+.card .bar-chart .apexcharts-canvas {
+    border-radius: 0 !important;
+}
